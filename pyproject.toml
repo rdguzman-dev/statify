@@ -1,5 +1,5 @@
 [project]
-name = "spotify-eda"
+name = "statify"
 version = "0.1.0"
 description = "EDA of the Spotify Tracks Dataset published by Maharshi Pandya."
 readme = "README.md"
@@ -13,13 +13,13 @@ dependencies = [
 ]
 
 [project.scripts]
-spotify-eda = "spotify_eda:main"
-valence-stats = "spotify_eda.valence_stats:main"
-valence-genre = "spotify_eda.valence_genre_rank:main"
-valence-distribution = "spotify_eda.valence_distribution:main"
-valence-mood-map = "spotify_eda.valence_mood_map:main"
-valence-danceability = "spotify_eda.valence_danceability:main"
-valence-popularity = "spotify_eda.valence_popularity:main"
+statify = "statify:main"
+valence-stats = "statify.valence_stats:main"
+valence-genre = "statify.valence_genre_rank:main"
+valence-distribution = "statify.valence_distribution:main"
+valence-mood-map = "statify.valence_mood_map:main"
+valence-danceability = "statify.valence_danceability:main"
+valence-popularity = "statify.valence_popularity:main"
 
 [build-system]
 requires = ["uv_build>=0.13.5,<0.14.0"]

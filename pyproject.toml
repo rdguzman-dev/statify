@@ -1,0 +1,26 @@
+[project]
+name = "spotify-eda"
+version = "0.1.0"
+description = "EDA of the Spotify Tracks Dataset published by Maharshi Pandya."
+readme = "README.md"
+authors = [
+    { name = "rdguzman-dev", email = "rdguzman.dev@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "polars>=2.1.0",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+spotify-eda = "spotify_eda:main"
+valence-stats = "spotify_eda.valence_stats:main"
+valence-genre = "spotify_eda.valence_genre_rank:main"
+valence-distribution = "spotify_eda.valence_distribution:main"
+valence-mood-map = "spotify_eda.valence_mood_map:main"
+valence-danceability = "spotify_eda.valence_danceability:main"
+valence-popularity = "spotify_eda.valence_popularity:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,281 @@
+{
+  "summary": {
+    "n_tracks": 89741,
+    "mean": 0.469,
+    "median": 0.457,
+    "sd": 0.263,
+    "min": 0.0,
+    "q1": 0.249,
+    "q3": 0.682,
+    "max": 0.995,
+    "share_above_half": 0.45
+  },
+  "bands": [
+    {
+      "band_idx": 0,
+      "band": "0.0-0.2",
+      "label": "very sad",
+      "n": 17093,
+      "share": 0.19047035357306025,
+      "mean_popularity": 31.816825601123266,
+      "ci_popularity": 0.29630759279063457,
+      "mean_danceability": 0.4189688936991751,
+      "mean_energy": 0.5295486801790207
+    },
+    {
+      "band_idx": 1,
+      "band": "0.2-0.4",
+      "label": "sad",
+      "n": 21832,
+      "share": 0.24327787744732063,
+      "mean_popularity": 34.60745694393551,
+      "ci_popularity": 0.2736463750731252,
+      "mean_danceability": 0.5251212303041407,
+      "mean_energy": 0.5996747347883841
+    },
+    {
+      "band_idx": 2,
+      "band": "0.4-0.6",
+      "label": "mid",
+      "n": 20583,
+      "share": 0.2293600472470777,
+      "mean_popularity": 34.23786620026235,
+      "ci_popularity": 0.2890104776445678,
+      "mean_danceability": 0.5872919059417967,
+      "mean_energy": 0.6552239819268328
+    },
+    {
+      "band_idx": 3,
+      "band": "0.6-0.8",
+      "label": "happy",
+      "n": 17923,
+      "share": 0.19971919189668044,
+      "mean_popularity": 32.77325224571779,
+      "ci_popularity": 0.30717698742371197,
+      "mean_danceability": 0.6356820844724655,
+      "mean_energy": 0.6930403628856777
+    },
+    {
+      "band_idx": 4,
+      "band": "0.8-1.0",
+      "label": "very happy",
+      "n": 12310,
+      "share": 0.13717252983586098,
+      "mean_popularity": 31.49902518277823,
+      "ci_popularity": 0.3490630704456574,
+      "mean_danceability": 0.6776497481722177,
+      "mean_energy": 0.7218013170105605
+    }
+  ],
+  "correlations": [
+    {
+      "feature": "danceability",
+      "r": 0.4925706917153139,
+      "abs_r": 0.4925706917153139
+    },
+    {
+      "feature": "instrumentalness",
+      "r": -0.33075909786298224,
+      "abs_r": 0.33075909786298224
+    },
+    {
+      "feature": "loudness",
+      "r": 0.28909110336104804,
+      "abs_r": 0.28909110336104804
+    },
+    {
+      "feature": "energy",
+      "r": 0.2563133629946441,
+      "abs_r": 0.2563133629946441
+    },
+    {
+      "feature": "acousticness",
+      "r": -0.1037674018695357,
+      "abs_r": 0.1037674018695357
+    },
+    {
+      "feature": "tempo",
+      "r": 0.09062236039239657,
+      "abs_r": 0.09062236039239657
+    },
+    {
+      "feature": "speechiness",
+      "r": 0.03293190271057674,
+      "abs_r": 0.03293190271057674
+    },
+    {
+      "feature": "liveness",
+      "r": 0.01231381625446261,
+      "abs_r": 0.01231381625446261
+    },
+    {
+      "feature": "popularity",
+      "r": -0.011525989623672444,
+      "abs_r": 0.011525989623672444
+    }
+  ],
+  "variance_share": {
+    "between_genre_share": 0.305,
+    "within_genre_sd_median": 0.217,
+    "overall_sd": 0.259
+  },
+  "within_genre_r": {
+    "valence_popularity": -0.044,
+    "valence_energy": 0.301
+  },
+  "mood_quadrants": [
+    {
+      "quadrant": "happy-intense",
+      "mood": "happy",
+      "drive": "intense",
+      "n": 26359,
+      "share": 0.29372304743651173,
+      "mean_danceability": 0.6238747031374479,
+      "mean_acousticness": 0.17293081224932674,
+      "mean_popularity": 33.40248112599112,
+      "valence_cut": 0.457,
+      "energy_cut": 0.676
+    },
+    {
+      "quadrant": "sad-calm",
+      "mood": "sad",
+      "drive": "calm",
+      "n": 26152,
+      "share": 0.2914164094449583,
+      "mean_danceability": 0.4862751300091774,
+      "mean_acousticness": 0.5586762166392627,
+      "mean_popularity": 34.33592077087794,
+      "valence_cut": 0.457,
+      "energy_cut": 0.676
+    },
+    {
+      "quadrant": "sad-intense",
+      "mood": "sad",
+      "drive": "intense",
+      "n": 18630,
+      "share": 0.20759741923981234,
+      "mean_danceability": 0.4954908105206656,
+      "mean_acousticness": 0.08138551166183576,
+      "mean_popularity": 32.46833064949007,
+      "valence_cut": 0.457,
+      "energy_cut": 0.676
+    },
+    {
+      "quadrant": "happy-calm",
+      "mood": "happy",
+      "drive": "calm",
+      "n": 18600,
+      "share": 0.20726312387871765,
+      "mean_danceability": 0.6482008279569891,
+      "mean_acousticness": 0.4718272802419355,
+      "mean_popularity": 32.04123655913978,
+      "valence_cut": 0.457,
+      "energy_cut": 0.676
+    }
+  ],
+  "mode": [
+    {
+      "key_mode": "major",
+      "n": 57162,
+      "mean_valence": 0.4745513048528743,
+      "ci_valence": 0.0021616949546397865
+    },
+    {
+      "key_mode": "minor",
+      "n": 32579,
+      "mean_valence": 0.4605748593572547,
+      "ci_valence": 0.0028360806763462103
+    }
+  ],
+  "popularity_split": {
+    "cut": 70,
+    "n_above": 3126,
+    "mean_above": 0.511,
+    "mean_below": 0.468
+  },
+  "genre_lowest": [
+    {
+      "track_genre": "sleep",
+      "n": 1000,
+      "mean_valence": 0.058187871
+    },
+    {
+      "track_genre": "iranian",
+      "n": 988,
+      "mean_valence": 0.15303876518218623
+    },
+    {
+      "track_genre": "ambient",
+      "n": 999,
+      "mean_valence": 0.16734454454454453
+    },
+    {
+      "track_genre": "new-age",
+      "n": 994,
+      "mean_valence": 0.1827327967806841
+    },
+    {
+      "track_genre": "black-metal",
+      "n": 997,
+      "mean_valence": 0.19213109327983952
+    },
+    {
+      "track_genre": "opera",
+      "n": 992,
+      "mean_valence": 0.21479657258064516
+    },
+    {
+      "track_genre": "grindcore",
+      "n": 998,
+      "mean_valence": 0.21635370741482965
+    },
+    {
+      "track_genre": "death-metal",
+      "n": 999,
+      "mean_valence": 0.24773883883883882
+    }
+  ],
+  "genre_highest": [
+    {
+      "track_genre": "pagode",
+      "n": 1000,
+      "mean_valence": 0.687978
+    },
+    {
+      "track_genre": "samba",
+      "n": 1000,
+      "mean_valence": 0.6934091
+    },
+    {
+      "track_genre": "children",
+      "n": 998,
+      "mean_valence": 0.6937879759519038
+    },
+    {
+      "track_genre": "ska",
+      "n": 1000,
+      "mean_valence": 0.69672
+    },
+    {
+      "track_genre": "afrobeat",
+      "n": 999,
+      "mean_valence": 0.6984746746746747
+    },
+    {
+      "track_genre": "rockabilly",
+      "n": 999,
+      "mean_valence": 0.7267367367367368
+    },
+    {
+      "track_genre": "forro",
+      "n": 998,
+      "mean_valence": 0.7604993987975952
+    },
+    {
+      "track_genre": "salsa",
+      "n": 998,
+      "mean_valence": 0.8145360721442886
+    }
+  ],
+  "genre_spread": 0.756
+}

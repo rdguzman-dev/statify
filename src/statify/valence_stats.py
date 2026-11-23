@@ -23,7 +23,7 @@ import polars as pl
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA = ROOT / "data" / "dataset.csv"
-DEFAULT_OUT_DIR = Path(__file__).resolve().parent / "stats"
+DEFAULT_OUT_DIR = ROOT / "stats"
 
 BAND_EDGES = (0.0, 0.2, 0.4, 0.6, 0.8, 1.0)
 BAND_LABELS = ("0.0-0.2", "0.2-0.4", "0.4-0.6", "0.6-0.8", "0.8-1.0")

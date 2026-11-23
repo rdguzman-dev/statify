@@ -18,9 +18,9 @@ import numpy as np
 import polars as pl
 
 from . import cli, theme as theme_mod
-from .valence_stats import load_tracks
+from .valence_stats import ROOT, load_tracks
 
-DEFAULT_OUT = Path(__file__).resolve().with_suffix(".png")
+DEFAULT_OUT = ROOT / "charts" / "valence_danceability.png"
 BINS = 12
 
 

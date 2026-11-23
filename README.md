@@ -24,17 +24,17 @@ Every script also takes `--data`, `--out` and `--theme`.
 
 | Script | Output | Question it answers |
 | --- | --- | --- |
-| `valence_genre_rank.py` | `valence_genre_rank.png` | Which genres are happiest and saddest? |
-| `valence_distribution.py` | `valence_distribution.png` | How are songs spread across the mood scale? |
-| `valence_mood_map.py` | `valence_mood_map.png` | How do mood and energy combine? |
-| `valence_danceability.py` | `valence_danceability.png` | Which audio feature tracks mood best? |
-| `valence_popularity.py` | `valence_popularity.png` | Does mood predict popularity? |
+| `valence_genre_rank.py` | `charts/valence_genre_rank.png` | Which genres are happiest and saddest? |
+| `valence_distribution.py` | `charts/valence_distribution.png` | How are songs spread across the mood scale? |
+| `valence_mood_map.py` | `charts/valence_mood_map.png` | How do mood and energy combine? |
+| `valence_danceability.py` | `charts/valence_danceability.png` | Which audio feature tracks mood best? |
+| `valence_popularity.py` | `charts/valence_popularity.png` | Does mood predict popularity? |
 | `valence_stats.py` | `stats/*.json`, `stats/*.csv` | All of the numbers above, checked in one place |
 
 ## Restyling
 
 All five charts read their colours, fonts, spacing and figure sizes from
-`src/statify/themes/default.json`. Keys fall back to the default, so
+`themes/default.json`. Keys fall back to the default, so
 we can use a two-line override instead of copying the whole file:
 
 ### Example
@@ -46,7 +46,7 @@ we can use a two-line override instead of copying the whole file:
 }
 ```
 
-Save that as `src/statify/themes/sakura.json` and run
+Save that as `themes/sakura.json` and run
 `uv run valence-genre --theme sakura`, or pass any path.
 
 ### Configuration

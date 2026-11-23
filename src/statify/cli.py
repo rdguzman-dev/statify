@@ -19,6 +19,6 @@ def base_parser(description: str, default_out: Path) -> argparse.ArgumentParser:
         "--theme",
         type=Path,
         default=None,
-        help="theme JSON; bare names like 'warm' resolve inside src/statify/themes/",
+        help="theme JSON; bare names like 'warm' resolve inside themes/",
     )
     return parser

@@ -18,9 +18,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from . import cli, theme as theme_mod
-from .valence_stats import genre_table, load_track_genres, load_tracks
+from .valence_stats import ROOT, genre_table, load_track_genres, load_tracks
 
-DEFAULT_OUT = Path(__file__).resolve().with_suffix(".png")
+DEFAULT_OUT = ROOT / "charts" / "valence_genre_rank.png"
 
 
 def draw_panel(ax, rows, overall: float, tm: theme_mod.Theme) -> None:

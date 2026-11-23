@@ -18,9 +18,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from . import cli, theme as theme_mod
-from .valence_stats import band_table, load_tracks, mode_split
+from .valence_stats import ROOT, band_table, load_tracks, mode_split
 
-DEFAULT_OUT = Path(__file__).resolve().with_suffix(".png")
+DEFAULT_OUT = ROOT / "charts" / "valence_popularity.png"
 POPULARITY_LIMIT = 42.0
 
 

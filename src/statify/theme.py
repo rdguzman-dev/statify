@@ -20,7 +20,8 @@ from typing import Any
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-THEMES_DIR = Path(__file__).resolve().parent / "themes"
+ROOT = Path(__file__).resolve().parents[2]
+THEMES_DIR = ROOT / "themes"
 DEFAULT_THEME_PATH = THEMES_DIR / "default.json"
 
 

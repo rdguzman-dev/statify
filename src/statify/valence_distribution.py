@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from . import cli, theme as theme_mod
-from .valence_stats import band_index, band_table, load_tracks
+from .valence_stats import ROOT, band_index, band_table, load_tracks
 
-DEFAULT_OUT = Path(__file__).resolve().with_suffix(".png")
+DEFAULT_OUT = ROOT / "charts" / "valence_distribution.png"
 BINS = 40
 
 

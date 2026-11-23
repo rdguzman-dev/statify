@@ -17,9 +17,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from . import cli, theme as theme_mod
-from .valence_stats import load_tracks, mood_quadrants
+from .valence_stats import ROOT, load_tracks, mood_quadrants
 
-DEFAULT_OUT = Path(__file__).resolve().with_suffix(".png")
+DEFAULT_OUT = ROOT / "charts" / "valence_mood_map.png"
 
 # (valence side, energy side) -> (label, colour index in colors.quadrants)
 QUADRANTS = {

@@ -1,0 +1,43 @@
+{
+  "credit": "Source: Spotify Tracks Dataset (Maharshi Pandya), 89,741 unique tracks",
+  "font": {
+    "family": ["DejaVu Sans"],
+    "title_weight": "bold",
+    "title": 16,
+    "subtitle": 12,
+    "label": 11,
+    "tick": 10,
+    "annotation": 10,
+    "caption": 9,
+    "legend": 10
+  },
+  "colors": {
+    "background": "#FFFFFF",
+    "axes_background": "#FFFFFF",
+    "text": "#1D1D1F",
+    "muted_text": "#6E6E73",
+    "grid": "#E4E4E7",
+    "accent": "#2A6FDB",
+    "accent_soft": "#BBD0F0",
+    "highlight": "#D1495B",
+    "reference": "#3A3A3C",
+    "neutral": "#D6D6DB",
+    "bands": ["#2F3E5C", "#5C7392", "#9AAABF", "#D9AC62", "#C97B33"],
+    "quadrants": ["#2F3E5C", "#C97B33", "#8FA3C4", "#E3B778"],
+    "cmap": "Blues"
+  },
+  "layout": {
+    "dpi": 200,
+    "grid": true,
+    "spines": false,
+    "transparent": false,
+    "title_align": "left",
+    "figure_sizes": {
+      "genre_rank": [12.0, 7.5],
+      "distribution": [11.0, 6.5],
+      "mood_map": [9.5, 8.5],
+      "danceability": [11.0, 6.5],
+      "popularity": [11.0, 6.0]
+    }
+  }
+}

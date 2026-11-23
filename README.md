@@ -1,6 +1,7 @@
 # Statify
 
-Exploratory data analysis of the [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset)
+Exploratory data analysis of the [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset).
+
 ## Data
 
 `data/dataset.csv`, 114,000 rows and 114 genres. Each genre contributes about

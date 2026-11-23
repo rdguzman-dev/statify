@@ -8,7 +8,7 @@ the same numbers. Two frames come out of the CSV:
 - `load_track_genres` keeps one row per (song, genre) pair, for anything that
   compares genres.
 
-Run `python -m spotify_eda.valence_stats` (or the `valence-stats` command) to
+Run `python -m statify.valence_stats` (or the `valence-stats` command) to
 print every highlight used in the infographic and dump them to JSON/CSV.
 """
 

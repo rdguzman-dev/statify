@@ -19,7 +19,7 @@ uv run valence-danceability                   # chart 4
 uv run valence-popularity --with-mode         # chart 5
 ```
 
-Without `uv`, `.venv/bin/python -m spotify_eda.valence_genre` works the same.
+Without `uv`, `.venv/bin/python -m statify.valence_genre` works the same.
 Every script also takes `--data`, `--out` and `--theme`.
 
 | Script | Output | Question it answers |
@@ -34,7 +34,7 @@ Every script also takes `--data`, `--out` and `--theme`.
 ## Restyling
 
 All five charts read their colours, fonts, spacing and figure sizes from
-`src/spotify_eda/themes/default.json`. Keys fall back to the default, so
+`src/statify/themes/default.json`. Keys fall back to the default, so
 we can use a two-line override instead of copying the whole file:
 
 ### Example
@@ -46,7 +46,7 @@ we can use a two-line override instead of copying the whole file:
 }
 ```
 
-Save that as `src/spotify_eda/themes/sakura.json` and run
+Save that as `src/statify/themes/sakura.json` and run
 `uv run valence-genre --theme sakura`, or pass any path.
 
 ### Configuration
